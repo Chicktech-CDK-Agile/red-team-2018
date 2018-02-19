@@ -1,4 +1,4 @@
-    <h>Contact Me</h>
+    <h2>Contact Me</h2>
     <div class="panel-body">
         <div class="row">
             <div class="col-lg-6" style="width: 15%">
@@ -15,7 +15,7 @@
                             <label>Last Name *</label><input name="total" ng-model="contactinfo.LastName" class="form-control" ng-required>
                         </div>
                         <div>
-                            <label>Email *</label><input email="total" ng-model="contactinfo.Email" class="form-control">
+                            <label>Email *</label><input email="total" ng-model="contactinfo.Email" class="form-control" ng-required>
                         </div>
                         <div>
                             <label>Phone Number </label><input PhoneNumber="total" ng-model="contactinfo.PhoneNumber" class="form-control">
@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <p style="text-align:center;"><button type="button" class="btn btn-success" ng-click="contactMe(contactinfo)">Submit</button></p>
+    <p style="text-align:center;"><button type="button" class="btn btn-success" ng-disabled="contactinfo.Email.length ===0 || contactinfo.FirstName.length===0 || contactinfo.LastName.legth===0" ng-click="contactMe(contactinfo)">Submit</button></p>
 
     <div class="row">
         <h2>Contact Us</h2>
