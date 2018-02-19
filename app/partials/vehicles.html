@@ -6,8 +6,24 @@
 <div class="row">
     <div class="col-lg-4">
         <div class="input-group">
-            <input type="text" class="search-bar form-control" placeholder=" Search" ng-model="search.Make"/>
+            <input type="text" class="search-bar form-control" placeholder=" Search by make" ng-model="search.Make"/>
                 <span class="input-group-addon">
+                    <i class="fa fa-search"></i>
+                </span>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="input-group">
+            <input type="text" class="search-bar form-control" placeholder=" Search by model" ng-model="search.Model"/>
+            <span class="input-group-addon">
+                    <i class="fa fa-search"></i>
+                </span>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="input-group">
+            <input type="text" class="search-bar form-control" placeholder=" Search by year" ng-model="search.Year"/>
+            <span class="input-group-addon">
                     <i class="fa fa-search"></i>
                 </span>
         </div>
