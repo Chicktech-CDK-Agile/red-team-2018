@@ -1,15 +1,43 @@
+    <h>Contact Me</h>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-lg-6" style="width: 15%">
+                <img width="125" height="125" alt="" src="app/img/top4.png" class="">
+            </div>
+            <div class="col-lg-6" style="width: 85%;">
+                <h3>Please provide us with the information below and choose submit.</h3>
+                <div class="panel-body" style="width: 74%">
+                    <div class="row">
+                        <div class="form-group">
+                            <label>First Name *</label><input name="total" ng-model="contactinfo.FirstName" class="form-control" ng-required>
+                        </div>
+                        <div>
+                            <label>Last Name *</label><input name="total" ng-model="contactinfo.LastName" class="form-control" ng-required>
+                        </div>
+                        <div>
+                            <label>Email *</label><input email="total" ng-model="contactinfo.Email" class="form-control">
+                        </div>
+                        <div>
+                            <label>Phone Number </label><input PhoneNumber="total" ng-model="contactinfo.PhoneNumber" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p style="text-align:center;"><button type="button" class="btn btn-success" ng-click="contactMe(contactinfo)">Submit</button></p>
 
     <div class="row">
-          <h2>Contact Us</h2>
-          <div class="clearfix">
+        <h2>Contact Us</h2>
+        <div class="clearfix">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus. Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices.</p>
             <h3>Our Address</h3>
             <p>586 Main Ave, Building 42<br />
-              Main City, Country 12345-6789</p>
+                Main City, Country 12345-6789</p>
             <p>T: (555) 123 - 4567<br />
-              F: (555) 523 - 4567</p>
+                F: (555) 523 - 4567</p>
             <p>W: <a href="#">http://www.domain.com</a><br />
-              E: <a href="#">myemail@domain.com</a></p>
-          </div>
+                E: <a href="#">myemail@domain.com</a></p>
+        </div>
     </div>
-
